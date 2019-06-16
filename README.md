@@ -1,2 +1,2 @@
-# wildthing
+# WildThing
 PowerWheels Wild Thing
