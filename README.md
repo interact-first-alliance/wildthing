@@ -33,6 +33,7 @@
 
 ## Teams
 [![](https://firestormrobotics.org/wp-content/uploads/2019/06/firestorm-logo-75.png)](https://firestormrobotics.org)
+[![](https://interactfirst.org/wp-content/uploads/2019/06/EG3VDlvg_400x400.jpg)](https://www.eastcobbrobotics.org/)
 
 ## Sponsors
 
