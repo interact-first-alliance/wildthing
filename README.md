@@ -33,7 +33,10 @@
 
 ## Teams
 [![](https://firestormrobotics.org/wp-content/uploads/2019/06/firestorm-logo-75.png)](https://firestormrobotics.org)
-[![](https://interactfirst.org/wp-content/uploads/2019/06/EG3VDlvg_400x400.jpg)](https://www.eastcobbrobotics.org/)
+<a href="https://www.eastcobbrobotics.org/"> <img src="https://interactfirst.org/wp-content/uploads/2019/06/east-cobb-robotics.jpg" alt="ECR" width="75" height="75"/></a>
+<a href="http://www.lithiumrobotics.org/"> <img src="https://interactfirst.org/wp-content/uploads/2019/06/lithium-robotics.png" alt="ECR" width="75" height="75"/></a>
+<a href="https://frcteam4080.wordpress.com/"> <img src="https://interactfirst.org/wp-content/uploads/2019/06/team-reboot.png" alt="ECR" width="75" height="75"/></a>
+
 
 ## Sponsors
 
