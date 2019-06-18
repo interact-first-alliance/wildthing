@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="https://interactfirst.org/">
+    <img src="https://interactfirst.org/wp-content/uploads/2019/05/Interact-FIRST-Web-Logo-Horizontal-Color.png" alt="Interact FIRST Alliance logo" />
+  </a>
+</p>
+<h3 align="center">PowerWheels Wild Thing</h3>
+
 ## Table of contents
 ## Quick start
 ## Creators and Maintainers
