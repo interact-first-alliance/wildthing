@@ -17,14 +17,12 @@ double DualJoystick::getX()
 {
   m_x = analogRead(m_joystickPinX);
   if((abs(512-m_x) < m_deadband)){m_x = 512;}
-  m_x = mapf(m_x, 0, 1023, -1,1);
   return m_x;
 }
 
 double DualJoystick::getY()
 {
-  m_y = analogRead(m_joystickPinY);
   if((abs(512-m_y) < m_deadband)){m_y = 512;}
-  m_y = mapf(m_y,0,1023,-1,1);
+  m_y = analogRead(m_joystickPinY);
   return m_y; 
 }
