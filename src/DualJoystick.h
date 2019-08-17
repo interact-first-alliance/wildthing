@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "Constants.h"
 #ifndef DUALJOYSTICK_H
-  #define DUALJOYSTICK_H
+#define DUALJOYSTICK_H
 
 class DualJoystick
 {
@@ -15,7 +15,9 @@ class DualJoystick
     DualJoystick(int xPin, int yPin);
     double getX();
     double getY();
-  
+    int getRawX();
+    int getRawY();
+    static double scale(int x);
 };
 
 #endif

@@ -1,4 +1,4 @@
-#include "Servo.h"
+#include <Servo.h> 
 #include <Arduino.h>
 #include "Constants.h"
 #ifndef DRIVETRAIN_H
@@ -18,6 +18,6 @@ class Drivetrain
     void setPower(int power, Servo* motor);
   public:
     Drivetrain(int motorLeft, int motorRight);
-    void cartesianDrive(int x, int y);
+    void cartesianDrive(double steerPow, double movePow);
 };
 #endif
