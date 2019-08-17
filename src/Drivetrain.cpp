@@ -12,11 +12,19 @@ Drivetrain::Drivetrain(int motorLeft, int motorRight)
   pinMode(m_potentiometerPin, INPUT);
 }
 
+/**
+ * interface to drive the motors
+ * @param power  - the amount of power to drive the motors (0-2000)
+ * @param Servo* - the motor to drive
+*/
 void Drivetrain::setPower(int power,Servo* motor)
 {
   motor->writeMicroseconds(power);
 }
 
+/**
+ * interface to take the desired steer and move powers and run the motors
+*/
 void Drivetrain::cartesianDrive(double steerPow, double movePow)
 {
   double leftPow = constrain((movePow - steerPow), 1,-1);
