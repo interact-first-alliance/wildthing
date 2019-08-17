@@ -8,8 +8,6 @@ Drivetrain::Drivetrain(int motorLeft, int motorRight)
   m_potentiometerPin = potenPin;
   m_leftMotor.attach(m_pinMotorLeft);
   m_rightMotor.attach(m_pinMotorRight);
-
-  pinMode(m_potentiometerPin, INPUT);
 }
 
 /**
