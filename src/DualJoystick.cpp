@@ -38,7 +38,7 @@ int DualJoystick::getRawY()
 {
   return analogRead(m_joystickPinY);
 }
-static double DualJoystick::scale(int x)
+double DualJoystick::scale(int x)
 {
   return mapf(x,0,1023,-1,1);
 }
